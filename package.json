@@ -1,0 +1,17 @@
+{
+  "name": "lava-rune-calc",
+  "version": "1.0.0",
+  "description": "Calculates the resources required to train runecrafting via lava runes on Old School RuneScape",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "osrs",
+    "runescape"
+  ],
+  "author": "Joe Hubbard",
+  "license": "ISC"
+}
