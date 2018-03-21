@@ -4,7 +4,7 @@ $(document).ready(function(){
         var username = $(this).find('#username').val();
         var target_level = $(this).find('#target_level').val();
         var target_xp = calc_level_xp(target_level);
-        var endpoint = 'http://services.runescape.com/m=hiscore_oldschool/index_lite.ws?player='+username;
+        var endpoint = 'https://cors-anywhere.herokuapp.com/http://services.runescape.com/m=hiscore_oldschool/index_lite.ws?player='+username;
         $.ajax({
             url: endpoint,
             type: 'GET',
