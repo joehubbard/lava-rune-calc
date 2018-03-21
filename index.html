@@ -2,9 +2,20 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <link rel="stylesheet" href="css/main.css">
+
+        <title>Lava Rune Resources Calculator</title>
     </head>
     <body>
         <h1>Lava Rune Resources Calculator</h1>
+        <form class="lookup">
+            <label for="username">Username</label>
+            <input id="username" type="text" maxlength="12" required name="username" value="">
+            <label for="target_level">Target level</label>
+            <input id="target_level" type="number" name="target_level" max="99" min="1" value="">
+            <button type="submit" name="button">Get stats</button>
+            <p id="lookup_result"></p>
+        </form>
     </body>
+    <script type="text/javascript" src="dist/main.min.js"></script>
 </html>
