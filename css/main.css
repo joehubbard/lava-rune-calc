@@ -1,3 +1,16 @@
+@font-face {
+  font-family: runescape;
+  src: url("../fonts/runescape_chat_font.eot") format("embedded-opentype"), url("../fonts/runescape_chat_font.woff") format("woff"), url("../fonts/runescape_chat_font.ttf") format("truetype"), url("../fonts/runescape_chat_font.svg") format("svg");
+  /* Legacy iOS */
+}
+
 body {
-  background-color: red;
+  background-color: #333;
+  font-family: runescape;
+  color: #fff200;
+  text-shadow: 3px 3px 0px black;
+}
+
+h1 {
+  font-family: runescape;
 }
