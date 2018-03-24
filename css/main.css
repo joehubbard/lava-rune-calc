@@ -11,6 +11,10 @@ body {
   text-shadow: 3px 3px 0px black;
 }
 
+p, label {
+  text-shadow: 2px 2px 0px black;
+}
+
 h1 {
   font-family: runescape;
 }
